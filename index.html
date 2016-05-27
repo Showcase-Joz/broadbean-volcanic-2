@@ -28,6 +28,23 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
+          <h3>Job Search</h3>
+      <div id='volcanic-widget-wrapper'></div>
+<script> 
+  !function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    var p = /^http:/.test(d.location) ? 'http' : 'http';
+    
+    if (!d.getElementById(id)) {
+      js = d.createElement(s);
+      js.id = id;
+      js.src = 'http://volcanic-orange.dev.volcanic.co/volcanic-widgets.js';
+      js.setAttribute('data-domain', 'http://grafton-recruitment-hu.staging.volcanic.uk');
+      js.setAttribute('data-widget', 'main-widget');
+      fjs.parentNode.insertBefore(js, fjs);
+    }
+  }(document, 'script', 'volcanic-widget');
+</script>
           <h3>
 <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
